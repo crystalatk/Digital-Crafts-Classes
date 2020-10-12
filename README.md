@@ -6,13 +6,13 @@
 >
 
 1. [Day One](https://github.com/crystalatk/Digital-Crafts-Classes/tree/master/1-commandline "the notes for day 1") 
->> Developer Fundamentals
+> Developer Fundamentals
 >>1. CLI
 >>2. Organizing the File System
 >>3. git basics
 >>4. Markdown
 2. Day Two
->> Programming 101
+> Programming 101
 >>1. Variables
 >>2. Numbers
 >>3. Strings
@@ -23,7 +23,7 @@
 >>8. Loops
 >>9. Error Handling
 3. Day 3
->>Programming 102
+>Programming 102
 >>1. Lists
 >>2. Iterate through Lists
 >>3. Modifying LIsts
