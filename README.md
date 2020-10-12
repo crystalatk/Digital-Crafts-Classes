@@ -5,9 +5,9 @@
 >
 >
 
-1. [Day One](https://github.com/crystalatk/Digital-Crafts-Classes/tree/master/1-commandline "the notes for day 1") 
+1. [Day One](https://github.com/crystalatk/Digital-Crafts-Classes/tree/master/1-commandline "Folder of Day 1 Notes") 
 > Developer Fundamentals
->>1. CLI
+>>1. [CLI] (https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/1-commandline/command-line.md "Comman Line Notes")
 >>2. Organizing the File System
 >>3. git basics
 >>4. Markdown
