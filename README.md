@@ -12,11 +12,15 @@
 >>3. git basics
 >>4. Markdown
 2. Day Two
-> Programming 101
->>1. Variables
->>2. Numbers
->>3. Strings
->>4. Comparison Conditions and Booleans
+> [Programming 101](https://github.com/crystalatk/Digital-Crafts-Classes/tree/master/2-programming101 "Programming 101 Main File")
+>>1. [Variables](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/variables.py)
+>>>>[Exercises](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/variable-execises.py)
+>>2. [Numbers](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/number.py)
+>>>>[Exercises](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/number-exercises.py)
+>>3. [Strings](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/string.py)
+>>>>[Exercises](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/string-exercises.py)
+>>4. [Comparison Conditions and Booleans](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/conditions.py)
+>>>>[Exercises](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/conditions-exercises.py)
 >>5. User Input
 >>6. Else If
 >>7. Nested and Multiple Conditions
