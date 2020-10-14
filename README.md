@@ -22,11 +22,16 @@
          - [Exercises](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/string-exercises.py)
     1. [Comparison Conditions and Booleans](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/conditions.py)
          - [Exercises](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/conditions-exercises.py)
-    1. User Input
-    1. Else If
-    1. Nested and Multiple Conditions
-    1. Loops
-    1. Error Handling
+    1. [User Input](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/user-input.py)
+          - [Exercises](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/user-input-exercises.py)
+    1. [Else If](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/else-if.py)
+          - [Exercises](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/else-if-exercises.py)
+    1. [Nested and Multiple Conditions](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/nesting.py)
+          - [Exercises](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/nesting-exercises.py)
+    1. [Loops](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/loops.py)
+          - [Exercises](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/loops-exercises.py)
+    1. [Error Handling](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/error.py)
+          - [Exercises](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/error-exercises.py)
 1. Day 3: Programming 102
     1. Lists
     1. Iterate through Lists
