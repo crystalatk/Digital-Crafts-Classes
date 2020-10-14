@@ -1,3 +1,3 @@
 name = input("What is your name?")
-name_upper = name.upper()
-print(f"HELLO, {name_upper}!\nYOUR NAME HAS 5 LETTERS IN IT! AWESOME!")
+letters = len(name)
+print(f"HELLO, {name.upper()}!\nYOUR NAME HAS {letters} LETTERS IN IT! AWESOME!")
