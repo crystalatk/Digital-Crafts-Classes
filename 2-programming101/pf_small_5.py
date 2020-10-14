@@ -3,7 +3,7 @@ try:
     day = int(input('Pick a Day (0-6)? '))
     if day == 0 or day == 6:
         print("Sleep in")
-    elif day >0 and day < 6:
+    elif 6 > day >0:
         print("Go to work")
     else:
         print("This does not follow our days of the week. Please enter a number between 0 & 6")
