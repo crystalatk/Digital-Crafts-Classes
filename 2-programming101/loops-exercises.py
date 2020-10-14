@@ -26,7 +26,7 @@ password = ""
 i = 1
 
 
-while i <= 10 and not (user_name == "Daisy" and password == "flower"):
+while i <= 10 and (user_name != "Daisy" or password != "flower"):
     print(f"attempt {i}")
     user_name = input("What is your username?\n")
     password = input("What is your password?\n") 
