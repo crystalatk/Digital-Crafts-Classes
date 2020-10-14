@@ -23,17 +23,15 @@ print("**3**")
 
 user_name = ""
 password = ""
-i = 0
+i = 1
 
 
-while i <= 10 and user_name != "Daisy" and password != "flower":
-    i += 1
-    if i == 11:
-        print("You suck!")
-        break
+while i <= 10 and not (user_name == "Daisy" and password == "flower"):
     print(f"attempt {i}")
     user_name = input("What is your username?\n")
-    password = input("What is your password?\n")
-
-if i <11:
-    print(f"Welcome, {user_name}! So glad you could make it!")
+    password = input("What is your password?\n") 
+    i += 1 
+    if i == 11:
+        print("You suck!")
+    if user_name == "Daisy" and password == "flower":
+        print(f"Welcome, {user_name}! So glad you could make it!")

@@ -37,4 +37,4 @@ except TypeError:
 except ValueError:
     print("You didn't give a number")
 
-print(my_num*5)
+print(my_num)
