@@ -15,7 +15,13 @@ try:
         print("Friday")
     elif day == 6:
         print("Saturday")
-    # else:
-    #     print("This does not follow our days of the week. Please enter a number between 0 & 6")
+    else:
+        print("This does not follow our days of the week. Please enter a number between 0 & 6")
 except ValueError:
     print("Cannot Process. Please enter a number from 0 - 6.")
+
+
+day_num = int(input("How many days into this week are we? Enter 0-6\n"))
+days = ["Sunday", "Monday", "Tuesdday", "Wednesday". "Thursday", "Friday", "Saturday"]
+
+print(days[day_numer])

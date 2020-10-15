@@ -8,3 +8,4 @@ try:
 except ValueError:
     print("I said, choose a whole number!")
 
+#if i did float instead of int, it doesn't have to be a whole number
