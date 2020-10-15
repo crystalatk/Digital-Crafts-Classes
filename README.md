@@ -32,7 +32,7 @@
           - [Exercises](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/loops-exercises.py)
     1. [Error Handling](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/error.py)
           - [Exercises](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/error-exercises.py)
-     1. Programming Fundamentals Exercises
+     1. Programming Fundamentals Exercises (Small)
           1. [Hello You!](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/pf_small_1.py)
           1. [HELLO YOU!](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/pf_small_2.py)
           1. [Madlib](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/pf_small_3.py)
@@ -43,6 +43,18 @@
           1. [Looping n to m](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/pf_small_8.py)
           1. [Print a Square](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/pf_small_9.py)
           1. [Print a Square II](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/pf_small_10.py)
+     1. Programming Fundamentals Exercises (Medium)
+          1. [Tip Calculator](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/pf_medium_1.py)
+          1. [Tip Calculator 2](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/pf_medium_2.py)
+          1. [How Many Coins?](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/pf_medium_3.py)
+          1. [Print a Box](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/pf_medium_4.py)
+          1. [Print a Triangle](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/pf_medium_5.py)
+          1. [Multiplication Table](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/pf_medium_6.py)
+     1. Programming Fundamentals Exercises (Large)
+          1. [Triangle Numbers](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/pf_big_1.py)
+          1. [Factor a Number](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/pf_big_2.py)
+          1. [Guess a Number](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/pf_big_3.py)
+          
 
 1. Day 3: Programming 102
     1. Lists
