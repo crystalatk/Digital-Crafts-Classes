@@ -9,9 +9,9 @@ while True:
         print("Please use a number.")
 
 max_number = user_number + 1
-
+print("Here are your factors:")
 for n in range(1, max_number):
     factor = (user_number / n)
-    if factor.is_integer():
+    if factor.is_integer(): #could do user_number % n == 0
         print(int(factor))
     n += 1

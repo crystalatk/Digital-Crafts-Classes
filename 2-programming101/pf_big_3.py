@@ -61,10 +61,11 @@
 # Step 4: Limit Number of Guesses
 # Limit the number of guesses the player has to 5. 
 # If he cannot guess the number within 5 guesses, he losses.
+# 
 
+# print("I am thinking of a number between 1 and 10.")
 # import random
 # secret_number = random.randint(1, 10)
-# print("I am thinking of a number between 1 and 10.")
 # n = 0
 
 # while n < 5:
@@ -86,14 +87,13 @@
 # At the conclusion of a game, give the player the option of playing again.
 
 import random
-secret_number = random.randint(1, 10)
-n = 1
 print("I am thinking of a number between 1 and 10.")
-
+n = 1
+secret_number = random.randint(1, 10)
 while n <= 5:
     while True:
         try: 
-            user_guess = int(input(f"\nAttempt {n}: "))
+            user_guess = int(input(f"\nAttempt {n}/5: "))
             break
         except ValueError:
             print("Please pick a number between 1 & 10?")
@@ -110,9 +110,15 @@ while n <= 5:
         new_game = input("\nWould you like to play again?\n(yes or no)???:  ")
         if new_game.upper() == "YES":
             n = 1
+            secret_number = random.randint(1, 10)
             print("\nI am thinking of a number between 1 and 10.")
             break
         else:
+            print("Thanks for playing!")
             n = 6
             break
     
+
+
+#to redeclare his variables, he did:
+# user_guess, n, secret_numer = None, 0, random.randint(1, 10)
