@@ -6,9 +6,7 @@
 my_numbers = [3, 5, 4, 8, 9]
 a = 5
 a_numbers = []
-count = 0
+
 for new in my_numbers:
-    new = a * my_numbers[count]
-    a_numbers.append(new)
-    count += 1
+    a_numbers.append(new *a)
 print(a_numbers)

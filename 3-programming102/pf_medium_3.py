@@ -15,12 +15,20 @@ matrix_c = []
 matrix_d = []
 
 
-for i in range(0, len(matrix_a)):
-    for j in range(0,len(matrix_a[i])):
-        sum_1 = matrix_a[i][j] + matrix_b[i][j]
-        if i < 1:
-            matrix_c.append(sum_1)
-        else:
-            matrix_d.append(sum_1)
-matrix_e = [matrix_c] + [matrix_d]
-print(matrix_e)
+# for i in range(len(matrix_a)):
+#     for j in range(len(matrix_a[i])):
+#         sum_1 = matrix_a[i][j] + matrix_b[i][j]
+#         if i < 1:
+#             matrix_c.append(sum_1)
+#         else:
+#             matrix_d.append(sum_1)
+# matrix_e = [matrix_c] + [matrix_d]
+# print(matrix_e)
+
+new_matrix = []
+for i in range(len(matrix_a)):
+    m = []
+    for j in range(len(matrix_a[i])):
+        m.append(matrix_a[i][j] + matrix_b[i][j])
+    new_matrix.append(m)
+print(new_matrix)

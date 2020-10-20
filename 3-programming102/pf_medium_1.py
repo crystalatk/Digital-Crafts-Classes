@@ -8,11 +8,10 @@
 
 list_a = [1, 2, 3, 4]
 list_b = [5, 4, 3, 2]
-count = 0
 list_c = []
-for multiple in list_a:
+for count in range(0, len(list_a)):
     m = list_a[count] * list_b[count]
     list_c.append(m)
-    count += 1
+
 
 print(list_c)
