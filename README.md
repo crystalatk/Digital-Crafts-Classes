@@ -87,4 +87,8 @@
           1. [Matrix Addition](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/pf_medium_2.py)
           1. [Matrix Addition II](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/pf_medium_3.py)
           1. [De-Dup: Remove the Duplicates](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/pf_medium_4.py)
+          1. [Leet Speak](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/pf_medium_5.py)
+          1. [Long-Long Vowels](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/pf_medium_6.py)
+          1. [Caesar Cipher](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/pf_medium_7.py)
+          
 
