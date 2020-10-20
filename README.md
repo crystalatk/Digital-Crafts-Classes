@@ -5,7 +5,7 @@
 >
 >
 
-1. [Day One: Developer Fundamentals](https://github.com/crystalatk/Digital-Crafts-Classes/tree/master/1-commandline "Folder of Day 1 Notes") 
+1. [Developer Fundamentals](https://github.com/crystalatk/Digital-Crafts-Classes/tree/master/1-commandline "Folder of Day 1 Notes") 
 
     1. [CLI](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/1-commandline/command-line.md "Command Line Notes")
     1. Organizing the File System
@@ -13,7 +13,7 @@
     1. Markdown
 >
 >
-2. [Day Two: Programming 101](https://github.com/crystalatk/Digital-Crafts-Classes/tree/master/2-programming101 "Programming 101 Main File")
+2. [Programming 101](https://github.com/crystalatk/Digital-Crafts-Classes/tree/master/2-programming101 "Programming 101 Main File")
     1. [Variables](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/variables.py)
          - [Exercises](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/variable-execises.py)
     1. [Numbers](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/number.py)
@@ -56,11 +56,15 @@
           1. [Guess a Number](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/2-programming101/pf_big_3.py)
           
 
-1. Day 3: Programming 102
-    1. Lists
-    1. Iterate through Lists
-    1. Modifying LIsts
-    1. Lists in List
+1. [Programming 102](https://github.com/crystalatk/Digital-Crafts-Classes/tree/master/3-programming102)
+    1. [Lists](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/1_lists.py)
+          1. [Exercises](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/1_lists_exercises.py)
+    1. [Iterate through Lists](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/2_iterate_through_list.py)
+          1. [Exercises](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/2_iterate_through_list_exercise.py)
+    1. [Modifying Lists](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/3_modifying_lists.py)
+          1. [Exercises](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/3_modifying_lists_exercises.py)
+    1. [Lists in List](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/4_lists_in_lists.py)
+          1. [Exercises](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/4_lists_in_lists_exercises.py)
     1. Key Value Pairs
     1. Functions
     1. Function Arguments and Parameters
@@ -69,3 +73,18 @@
     1. Classes
     1. Methods
     1. Inheritance
+    1. Programming Fundamentals Exercises (Small)
+          1. [Sum the Numbers](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/pf_small_1.py)
+          1. [Largest Number](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/pf_small_2.py)
+          1. [Smallest Number](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/pf_small_3.py)
+          1. [Even Numbers](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/pf_small_4.py)
+          1. [Positive Numbers](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/pf_small_5.py)
+          1. [Positive Numbers II](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/pf_small_6.py)
+          1. [Multiply a List](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/pf_small_7.py)
+          1. [Reverse a String](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/pf_small_8.py)
+    1. Programming Fundamentals Exercises (Medium)
+          1. [Multiply Vectors](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/pf_medium_1.py)
+          1. [Matrix Addition](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/pf_medium_2.py)
+          1. [Matrix Addition II](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/pf_medium_3.py)
+          1. [De-Dup: Remove the Duplicates](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/pf_medium_4.py)
+
