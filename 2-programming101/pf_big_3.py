@@ -87,16 +87,16 @@
 # At the conclusion of a game, give the player the option of playing again.
 
 import random
-print("I am thinking of a number between 1 and 10.")
+print("I am thinking of a number between 1 and 100.")
 n = 1
-secret_number = random.randint(1, 10)
+secret_number = random.randint(1, 100)
 while n <= 5:
     while True:
         try: 
             user_guess = int(input(f"\nAttempt {n}/5: "))
             break
         except ValueError:
-            print("Please pick a number between 1 & 10?")
+            print("Please pick a number between 1 & 100?")
     n +=1
     if user_guess < secret_number:
         print(f"\nNope! You lose! Just kidding, {user_guess} is too low!")
@@ -106,12 +106,12 @@ while n <= 5:
         if user_guess == secret_number:
             print("\nYou got it! You get a gold star!")  
         elif n > 5:
-            print("\nToo many tries! You lose!")    
+            print(f"\nToo many tries! You lose!\nMy number was: {secret_number}!")    
         new_game = input("\nWould you like to play again?\n(yes or no)???:  ")
         if new_game.upper() == "YES":
             n = 1
-            secret_number = random.randint(1, 10)
-            print("\nI am thinking of a number between 1 and 10.")
+            secret_number = random.randint(1, 100)
+            print("\nI am thinking of a number between 1 and 100.")
             break
         else:
             print("Thanks for playing!")

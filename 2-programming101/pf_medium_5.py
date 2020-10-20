@@ -1,4 +1,4 @@
-level = 0
+# level = 0 I don't need this! The level variable is set withing the for loop
 width = 9
 for level in range(0, width, 2):
     level += 1
