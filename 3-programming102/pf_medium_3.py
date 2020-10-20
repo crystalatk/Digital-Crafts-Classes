@@ -13,10 +13,9 @@ matrix_b = [[8, 2, 1, 3, 2],
         ]
 matrix_c = []
 matrix_d = []
-count = 0
+
 
 for i in range(0, len(matrix_a)):
-    list_count = 0
     for j in range(0,len(matrix_a[i])):
         sum_1 = matrix_a[i][j] + matrix_b[i][j]
         if i < 1:
