@@ -43,11 +43,11 @@ print(x) #x is 10? WTH?!?
 
 # How to make a global variable within the function!
 # You must declare a global variable before the variable is defined
-def change_x_to(newX):
-    global x #saying 'Hey x if your global stay that way or be a global var if not already created'
-    x = newX
-    print(x)
-    return x
+# def change_x_to(newX):
+#     global x #saying 'Hey x if your global stay that way or be a global var if not already created'
+#     x = newX
+#     print(x)
+#     return x
 
 change_x_to(15)
 print(x)
@@ -56,11 +56,11 @@ print(x)
 # Global variables should be constants...
 
 # Global variable conditionally set is possible... but not a best practice
-  number = int(input("Give me a number:\n"))
-  if number > 10:
-      x = number * 10
-  
-  print(x)#if user entered <9 then it will error
+number = int(input("Give me a number:\n"))
+if number > 10:
+    x = number * 10
+
+print(x)#if user entered <9 then it will error
 
 
 

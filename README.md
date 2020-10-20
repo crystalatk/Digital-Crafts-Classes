@@ -65,11 +65,16 @@
           1. [Exercises](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/3_modifying_lists_exercises.py)
     1. [Lists in List](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/4_lists_in_lists.py)
           1. [Exercises](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/4_lists_in_lists_exercises.py)
-    1. Key Value Pairs
-    1. Functions
-    1. Function Arguments and Parameters
-    1. Function Return Values
-    1. Function Scope
+    1. [Key Value Pairs](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/5_key_value_pairs.py)
+            1. [Exercises](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/5_key_value_pairs_exercises.py)
+    1. [Functions](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/6_functions.py)
+            1. [Exercises](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/6_functions_exercises.py)
+    1. [Function Arguments and Parameters](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/7_function_arguments.py)
+            1. [Exercises](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/7_function_arguments_exercise.py)
+    1. [Function Return Values](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/8_function_return_values.py)
+            1. [Exercises](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/8_function_return_values_exercises.py)
+    1. [Function Scope](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/9_function_scope.py)
+            1. [Exercises](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/9_function_scope_exercises.py)
     1. Classes
     1. Methods
     1. Inheritance
