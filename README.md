@@ -75,9 +75,11 @@
             1. [Exercises](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/8_function_return_values_exercises.py)
     1. [Function Scope](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/9_function_scope.py)
             1. [Exercises](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/9_function_scope_exercises.py)
-    1. Classes
-    1. Methods
-    1. Inheritance
+    1. [Classes](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/10_classes.py)
+            1. [Exercises](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/10_classes_exercises.py)
+    1. [Methods](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/11_methods.py)
+            1. [Exercises](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/11_methods_exercises.py)
+    1. [Inheritance](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/12_inheritance.py)
     1. Programming Fundamentals Exercises (Small)
           1. [Sum the Numbers](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/pf_small_1.py)
           1. [Largest Number](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/pf_small_2.py)
