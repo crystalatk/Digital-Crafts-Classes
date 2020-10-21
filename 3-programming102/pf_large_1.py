@@ -30,7 +30,7 @@ loser_statement = "\n*****Player %s Loses!!! Hahaha!*****"
 
 
 
-for i in range(0, 10):
+for i in range(0, 9):
     print(f"\nPlayer {player}'s turn!\n")
 
     while True:
@@ -88,10 +88,8 @@ for i in range(0, 10):
     elif board[2][0] == board[1][1] and board[2][0] == board[0][2]:
         print(loser_statement % player)
         break
-    else:
-        i += 1
 
-if i >= 9:
+if i == 8:
     print("\n*****It's a cat! You guys are evenly matched!*****\nPlease play again!\n\n")
 else:
     print("\n\tPlease play again!\n\n")
