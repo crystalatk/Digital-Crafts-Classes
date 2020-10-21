@@ -95,5 +95,7 @@
           1. [Leet Speak](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/pf_medium_5.py)
           1. [Long-Long Vowels](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/pf_medium_6.py)
           1. [Caesar Cipher](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/pf_medium_7.py)
+    1. Programming Fundamentals Exercises (Large)
+          1. [Tic-Tac-Toe](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/3-programming102/pf_large_1.py)
           
 
