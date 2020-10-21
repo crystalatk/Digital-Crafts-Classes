@@ -12,83 +12,77 @@ for y in range(SIZE):
         # Fill our inner Lists with the coordinates
         board[y].append("[%d][%d]" % (y, x))
 print("\nHere is our board!\nPlayer 1 is X and Player 2 is O.\n")
+
 # Print the board as a grid
-
-
 for row in board:
     for column in row:
         print("%s  " % column, end="")
     print("\n")
 
-player_1 = "  X   "
-player_2 = "  O   "
+player_token = ["  X   ", "  O   "]
+
+# player_1 = "  X   "
+# player_2 = "  O   "
 
 player = 1
 
 error_number_message = "\n*******\nPlease enter a number between 0 and 2.\n*******"
-loser_statement = "\n*****Player %s Loses!!! Hahaha!*****"
+winner_statement = "\n*****Player %s Wins!!!! Yay!*****"
 
-
-
-for i in range(0, 9):
+rabbit_foot = True #keeps game play going
+while rabbit_foot:
     print(f"\nPlayer {player}'s turn!\n")
 
-    while True:
+    while True: #checking for errors in user input
         try:
             row = int(input(f"\n***Player {player}***\nWhich row would you like to use (This is the first number [row] [column]?\n0, 1, or 2? "))
             if 0 <= row <= 2:
                 column = int(input("\nWhich column would you like to mark?\n0, 1, or 2? "))
                 if 0 <= column <= 2:
-                    if board[row][column] == player_1 or board[row][column] == player_2:
+                    if board[row][column] in player_token:
                         print("\n*****\nThat space is already taken. Try again!\n*****")
                     else:
                         break
                 else:
                     print(error_number_message)
             else:
-               print(error_number_message) 
+                print(error_number_message) 
         except ValueError:
             print(error_number_message)
-
-    if player == 1:
-        board[row][column] = player_1
-        player = 2
-    else:
-        board[row][column] = player_2
-        player = 1
-
+    
+    board[row][column] = player_token[player - 1] # marks the square
     print("\n")
-    for row in board:
+    for row in board: #Prints new board with user piece placed
         for column in row:
             print("%s  " % column, end="")
         print("\n")
-
-
-    if board[0][0] == board[0][1] and board[0][0] == board[0][2]:
-        print(loser_statement % player)
-        break
-    elif board[1][0] == board[1][1] and board[1][0] == board[1][2]:
-        print(loser_statement % player)
-        break
-    elif board[2][0] == board[2][1] and board[2][0] == board[2][2]:
-        print(loser_statement % player)
-        break
-    elif board[0][0] == board[1][1] and board[0][0] == board[2][2]:
-        print(loser_statement % player)
-        break
-    elif board[0][0] == board[1][0] and board[0][0] == board[2][0]:
-        print(loser_statement % player)
-        break
-    elif board[0][1] == board[1][1] and board[0][1] == board[2][1]:
-        print(loser_statement % player)
-        break
-    elif board[0][2] == board[1][2] and board[0][2] == board[2][2]:
-        print(loser_statement % player)
+#checking for wins! if rabbitfoot is false, it will end the loop
+    for i in range(SIZE):#checking rows
+        if board[i][0] == board[i][1] and board[i][0] == board[i][2]:
+            print(winner_statement % player)
+            rabbit_foot = False
+            break
+    for i in range(SIZE):#checking columns
+        if board[0][i] == board[1][i] and board[0][i] == board[2][i]:
+            print(winner_statement % player)
+            rabbit_foot = False
+            break
+    #checking diagnals...
+    if board[0][0] == board[1][1] and board[0][0] == board[2][2]:
+        print(winner_statement % player)
+        rabbit_foot = False
         break
     elif board[2][0] == board[1][1] and board[2][0] == board[0][2]:
-        print(loser_statement % player)
+        print(winner_statement % player)
+        rabbit_foot = False
         break
+#Changing player so messages will be correct
+    if player == 1:
+        player = 2
+    else:
+        player = 1
 
+#Someone has won or board is full:
 if i == 8:
     print("\n*****It's a cat! You guys are evenly matched!*****\nPlease play again!\n\n")
 else:
