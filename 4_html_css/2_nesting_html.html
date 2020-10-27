@@ -1,0 +1,86 @@
+  <!-- simple nesting -->
+<div>
+    <p> <!--this p element is the child of the div element-->
+        I am some content
+    </p>
+    <p>
+        I am more content
+    </p>
+</div>
+
+  <!-- Deep level nesting -->
+<div>
+    <section>
+        <p>
+            Things are good today. 
+            <span>Really Good! <strong>I am strong!</strong>
+            </span>
+        </p>
+    </section>
+</div>
+
+ <!-- space and tabs do not matter -->
+ <div><p> I love <span> spanned </span> content</p> </div>
+
+<ul> <!--Never want anything inside of ul (unordered list) except for a list item-->
+    <li> Peas</li>
+    <li>Carrots </li>
+    <li>Potatoes </li>
+</ul>
+
+<ol> <!--ordered lists-->
+    <li>one</li>
+    <li>two</li>
+    <li>three</li>
+</ol>
+
+<table> <!--Don't use tables for layouts! Tables need nested items-->
+    <thead> <!---Table heading-->
+        <th>Item 1</th>
+        <th>Item 2</th>
+        <th>Item 3</th>
+    </thead>
+    <tr> <!--table row!-->
+        <td> Peas</td>
+        <td> Carrots</td>
+        <td> Potatoes</td>
+    </tr>
+    <tr> <!--another table row!-->
+        <td>Ice Cream</td>
+        <td>Pancakes</td>
+        <td>Baklava</td>
+    </tr>
+</table>
+
+  <!-- opening and closing tags mixed up, these need to be in order!-->
+<div>
+    <p>
+        <span>
+        Some content to use
+    </p>
+        </span>
+</div>
+
+
+<!--should be:-->
+<div>
+    <p>
+        <span>
+            Some content to use
+        </span>
+    </p>  
+</div>
+
+<!-- bad practices -->
+  <!-- Using hr to draw line is not symantic -->
+  <hr />
+  <hr />
+  <hr />
+
+  <b>B is bold. IT is not symantic but is a style. HTML is not supposed to use style</b>
+  <i> Like B I means itallic. HTML is not supposed to represent style.</i>
+
+
+
+
+  
