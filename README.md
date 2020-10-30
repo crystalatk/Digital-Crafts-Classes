@@ -113,8 +113,6 @@
             1. [Headings](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/4_html_css/pf_small_1.html)
             1. [Nesting Tags](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/4_html_css/pf_small_2.html)
             1. [Lists](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/4_html_css/pf_small_3.html)
-            1. Skip
-            1. Skip
             1. [Images](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/4_html_css/pf_small_6.html)
             1. [Links](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/4_html_css/pf_small_7.html)
             1. [Linking Images](https://github.com/crystalatk/Digital-Crafts-Classes/blob/master/4_html_css/pf_small_8.html)

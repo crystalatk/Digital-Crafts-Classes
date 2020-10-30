@@ -1,0 +1,46 @@
+<!-- Explain the Box Model
+
+https://hackernoon.com/hn-images/1*2jZwpWH9XO_QllhEpyGqMA.png -->
+<!-- /* top, right, bottom, left */ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+        padding:10px 20px 2px 6px;
+    }
+
+     /* top & bottom, left & right */ 
+    span {
+        margin: 1em 3em;
+    }
+
+    /* all */ 
+    .random-selector {
+        padding:50px;
+        margin:10px;
+    }
+
+     /* size, style, color */ 
+    div:hover {
+        border: 4px double red;
+    }
+
+     /* height and width */ 
+    a {
+        width:50%;
+        height:30px;
+    }
+    </style>
+</head>
+<body>
+    <div>
+        This is something
+    </div>
+</body>
+</html>
+
+<!-- Padding contains the background margin is outside of the background. Think of margin seperating the elements while padding makes the element bigger. -->

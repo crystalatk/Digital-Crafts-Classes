@@ -1,0 +1,66 @@
+<!-- /* Inheritance - In css terms, Inheritance is how elements are styled when not directly selected. The inheritance order is parent -> User Angent (Browser default) -> Selected via selector */
+/* Specificity - In CSS, specificity refers to how specific the selector is. If there is more than one selector that can impact an element, declerations from less specfic will be overwritten by more specific. Specificy goes in the order tag->class->psudo-class->id. */
+
+/* Understanding Inheritance */ -->
+
+<style>
+    /* Sets the font family: if it has arial, use that, if not, use helvetica, if not san-serif */
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    } 
+    /* sets background for all 'a's */           
+    a {
+        text-decoration: none;
+    }
+    /* sets the font-famly for all 'div's */
+    div {
+        font-family: 'Courier New', Courier, monospace;
+    }
+    /* makes nav-links bold */
+    .nav-link {
+        font-weight:bold;
+    }  
+    /* psudo class is more specific than class */
+    .nav-link:first-child {
+      background:green;
+      text-decoration:underline;
+      font-weight: normal;
+    }
+    /* makes active class silver and underline */  
+    .active {
+        background:silver;
+        text-decoration: underline;
+    }
+    h2, h3 {
+      background:#efefef;
+      border-bottom:3px solid;
+    }
+    .main-content .active {
+      background:red;
+      border: 1px solid #000;
+    }
+    .active.sub-item {
+        background: blue;
+    }
+
+</style>
+<html>
+    <body>
+        <h2>Star Wars Links</h2>
+        <div id="navbar">
+        <a href="#" class="nav-link">Yoda Facts</a>
+        <a href="#" class="nav-link">Han Facts</a>
+        <a href="#" class="nav-link active">Jar Jar Facts</a>
+        </div>
+        <div id="content">
+            <h3>Mesa Jar Jar Binks</h3>
+            <p class="active">mesa your humble servant!</p>
+            <p class="active sub-item">Yousa should follow me now, okeeday?</p>
+        </div>
+    </body>
+</html>
+
+
+<!-- More details https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors -->
+
+`

@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(45, 42, 40);
+    background-color: rgb(114, 171, 218);
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: snow;
+    text-shadow: 2px 2px 5px rgb(98, 105, 116);
+    text-align: center;
+}
+
+li {
+    background: seashell;
+    margin: 8px;
+    font-weight: bold;
+    padding: 6px 0px;
+}
+
+.active {
+    border: solid;
+    border-color: rgb(131, 12, 12);
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+section {
+    font-weight: normal;
+    font-style: italic;
+}
+
