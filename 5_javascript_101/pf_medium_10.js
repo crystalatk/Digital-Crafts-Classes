@@ -11,9 +11,10 @@
 function positiveNumbers(given) {
   let newArray = [];
   for (let i = 0; i < given.length; i++)
-    if (given[i] >= 0) {
-      newArray.push(given[i]);
-    }
+    // if (given[i] >= 0) {
+    //   newArray.push(given[i]);
+    // }
+    given[i] >= 0 && newArray.push(given[i]);
   return newArray;
 }
 

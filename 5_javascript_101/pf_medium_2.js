@@ -13,6 +13,10 @@ function tipAmount(bill, serviceLevel) {
   if (serviceLevel == "good") tip = 0.2;
   else if (serviceLevel == "fair") tip = 0.15;
   else if (serviceLevel == "poor") tip = 0.1;
+  else
+    console.log(
+      "You did not enter good, fair, or poor for your service quality. Please choose the proper level of service to calculate your tip. \nTip amount blank."
+    );
   return tip * bill;
 }
-console.log(`$${tipAmount(10, "good")}`);
+console.log(`Tip Amount: $${tipAmount(10, "good")}`);

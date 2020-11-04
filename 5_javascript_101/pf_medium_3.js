@@ -6,12 +6,34 @@
 // totalAmount(40, 'fair')
 // 46
 
+// function totalAmount(bill, serviceLevel) {
+//   let tip = 0;
+//   if (serviceLevel == "good") tip = 0.2;
+//   else if (serviceLevel == "fair") tip = 0.15;
+//   else if (serviceLevel == "poor") tip = 0.1;
+//   return bill + bill * tip;
+// }
+
+// console.log(`$${totalAmount(100, "good")}`);
+
 function totalAmount(bill, serviceLevel) {
   let tip = 0;
-  if (serviceLevel == "good") tip = 0.2;
-  else if (serviceLevel == "fair") tip = 0.15;
-  else if (serviceLevel == "poor") tip = 0.1;
+  switch (serviceLevel) {
+    case "good":
+      tip = 0.2;
+      break;
+    case "fair":
+      tip = 0.15;
+      break;
+    case "poor":
+      tip = 0.1;
+      break;
+    default:
+      console.log(
+        "Please choose a service level of good, fair, or poor, Your tip was not calculated."
+      );
+  }
   return bill + bill * tip;
 }
 
-console.log(`$${totalAmount(100, "good")}`);
+console.log(`Your total with tip:\n$${totalAmount(100, "fair")}`);

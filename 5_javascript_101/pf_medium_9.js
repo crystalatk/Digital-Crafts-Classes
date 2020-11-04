@@ -9,11 +9,10 @@
 // 'Maaaaaaan'
 
 function longVowel(word) {
-  let vowels = ["A", "E", "I", "O", "U"];
+  const vowels = ["A", "E", "I", "O", "U"];
   let wordArray = word.split("");
-  console.log(wordArray);
   for (let i = 0; i < wordArray.length; i++) {
-    letter = wordArray[i];
+    const letter = wordArray[i];
     for (let v = 0; v < vowels.length; v++) {
       if (letter.toUpperCase() == vowels[v] && letter == wordArray[i - 1]) {
         wordArray[i] = letter.repeat(4);
