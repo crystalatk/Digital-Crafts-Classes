@@ -13,3 +13,15 @@ function printBanner(text) {
 }
 
 printBanner("- Welcome to DigitalCrafts -");
+
+// Clint's solution
+function printBanner(text) {
+  let l = text.length;
+  let s = "";
+  for (let i = 0; i < l + 2; i++) s += "-";
+  console.log(s);
+  console.log("-" + text + "-");
+  console.log(s);
+}
+
+printBanner("Women Belong in All Places");

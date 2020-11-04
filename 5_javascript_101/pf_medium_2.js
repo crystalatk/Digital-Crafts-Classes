@@ -8,15 +8,41 @@
 // tipAmount(40, 'fair')
 // 6
 
+// function tipAmount(bill, serviceLevel) {
+//   let tip = 0;
+//   if (serviceLevel == "good") tip = 0.2;
+//   else if (serviceLevel == "fair") tip = 0.15;
+//   else if (serviceLevel == "poor") tip = 0.1;
+//   else
+//     console.log(
+//       "You did not enter good, fair, or poor for your service quality. Please choose the proper level of service to calculate your tip. \nTip amount blank."
+//     );
+//   return tip * bill;
+// }
+// console.log(`Tip Amount: $${tipAmount(10, "good")}`);
+// var myService = {
+//   good: 0.2,
+//   fair: 0.15,
+//   poor: 0.1,
+// };
+// function tipAmount(bill, serviceLevel) {
+//   let tip = myService[serviceLevel] || 0;
+//   tip === 0 &&
+//     console.log(
+//       "You did not enter good, fair, or poor for your service quality. Please choose the proper level of service to calculate your tip. \nTip amount blank."
+//     );
+//   return tip * bill;
+// }
+
+// console.log(`Tip Amount: $${tipAmount(10, "good")}`);
+
+var myService = {
+  good: 0.2,
+  fair: 0.15,
+  poor: 0.1,
+};
 function tipAmount(bill, serviceLevel) {
-  let tip = 0;
-  if (serviceLevel == "good") tip = 0.2;
-  else if (serviceLevel == "fair") tip = 0.15;
-  else if (serviceLevel == "poor") tip = 0.1;
-  else
-    console.log(
-      "You did not enter good, fair, or poor for your service quality. Please choose the proper level of service to calculate your tip. \nTip amount blank."
-    );
-  return tip * bill;
+  return bill * (myService[serviceLevel] || 0.2);
 }
-console.log(`Tip Amount: $${tipAmount(10, "good")}`);
+
+console.log(`Tip Amount: $${tipAmount(10, "dog")}`);

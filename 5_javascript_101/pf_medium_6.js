@@ -14,4 +14,4 @@ function printBox(width, height) {
   console.log(" - ".repeat(width));
 }
 
-printBox(10, 10);
+printBox(7, 5);
