@@ -5,6 +5,7 @@ Because I am a malevolent dictator.
 And you'd try to make a weird flex on it.  
 Click the button, Sean.  
 I have a light saber. That doesn't help in this situation.  
-Kleenex on my shirt. Jesus, I'm presentable.
+Kleenex on my shirt. Jesus, I'm presentable.  
+This is going to be even worse than live coding, we are going to do live searching...
 
 Patrick- "I'm from Alabama, so I don't really read."
