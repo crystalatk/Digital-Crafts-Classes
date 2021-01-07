@@ -7,6 +7,7 @@ Click the button, Sean.
 I have a light saber. That doesn't help in this situation.  
 Kleenex on my shirt. Jesus, I'm presentable.  
 This is going to be even worse than live coding, we are going to do live searching...  
-Screw you if you can't read! Who cares?!
+Screw you if you can't read! Who cares?!  
+You can revolt later...
 
 Patrick- "I'm from Alabama, so I don't really read."
