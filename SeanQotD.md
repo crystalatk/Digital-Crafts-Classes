@@ -9,5 +9,7 @@ Kleenex on my shirt. Jesus, I'm presentable.
 This is going to be even worse than live coding, we are going to do live searching...  
 Screw you if you can't read! Who cares?!  
 You can revolt later...
+It's like a library in here.  
+I just make everything about me. Ryan-There are treatments for what you've got.
 
 Patrick- "I'm from Alabama, so I don't really read."
