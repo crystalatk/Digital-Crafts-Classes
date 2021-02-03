@@ -11,5 +11,6 @@ Screw you if you can't read! Who cares?!
 You can revolt later...
 It's like a library in here.  
 I just make everything about me. Ryan-There are treatments for what you've got.
+In the age of COVID, you gotta write MeeMaw letters. Red neck cursive.
 
 Patrick- "I'm from Alabama, so I don't really read."
